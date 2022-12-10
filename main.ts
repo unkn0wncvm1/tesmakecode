@@ -21,7 +21,6 @@ controller.player2.onEvent(ControllerEvent.Connected, function () {
     mySprite2.setBounceOnWall(true)
 })
 controller.player1.onEvent(ControllerEvent.Connected, function () {
-    music.playSoundEffect(music.createSoundEffect(WaveShape.Noise, 454, 677, 255, 255, 6000, SoundExpressionEffect.None, InterpolationCurve.Curve), SoundExpressionPlayMode.InBackground)
     mySprite = sprites.create(img`
         . . . . . . . . . . . . . . . . 
         . . . . . . . . . . . . . . . . 
